@@ -1,1 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Browar domowy SZYSZKA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/main.js"></script>
+  </head>
 
+  <body>
+    <app-header></app-header>
+
+    <div class="container-sm pb-5">
+      <div id="carouselHB" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselHB" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselHB" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselHB" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselHB" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselHB" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselHB" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/pages/home_brew/malt.jpg" class="d-block w-100" alt="malt">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pages/home_brew/water.jpg" class="d-block w-100" alt="water">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pages/home_brew/boil.jpg" class="d-block w-100" alt="boil">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pages/home_brew/blg.jpg" class="d-block w-100" alt="blg">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pages/home_brew/ferm.jpg" class="d-block w-100" alt="ferm">
+          </div>
+          <div class="carousel-item">
+              <img src="images/pages/home_brew/beer.jpg" class="d-block w-100" alt="mashing">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHB" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHB" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </div>
+
+    <!-- Piwowarstwo domowe -->
+    <div class="container-flex bg-white">
+      <div class="container py-5">
+          <p class="h2 text-center mb-4">Od czego zacząć?</p>
+          <p class="h4 text-center"> Poniżej znajdziecie garść informacji o warzeniu piwa w warunkach domowych:
+          </p>
+      
+      </div>
+    </div>
+    <!-- Accordions-->
+    <div class="container-flex">    
+      <div class="container py-5">
+          <div class="accordion" id="accordion_HB">
+              <!-- a1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">    
+                  <button class="accordion-button collapsed" type="button" id="a1" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h5 class="text-accordion">Podstawy</h5>
+                    <img class="icons" src="ico/home_brew/learn.png" >
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+                    <p> 
+                      Podstawą jest zawsze wiedza. Wiedzieć nie oznacza umieć, to przychodzi z doświadczeniem, jednakże bez wiedzy o sprzęcie, składnikach, procesie, stylach, trudno jest zacząć warzyć piwo. Poniżej moja subiektywna lista źródeł informacji.
+                    </p>
+                    <p class="h6">Skąd czeprać wiedzę na temat piwa?</p>
+                    <ul>
+                      <li>Książki - każdemu polecam książkę "Jak warzyć piwo" Johna Palmera</li>       
+                      <li>Strona internetowa piwo.org - znajdują się na niej właściwie wszystkie informacje na temat piwowarstwa, receptur, czy sprzętu. Oprócz tego nadal prężnie działa forum</li>   
+                      <li>Polskie Stowarzyszenie Piwowarów domowych (PSPD) - wiedza, szkolenia, konkursy, magazyn "Piwowar"</li>   
+                      <li><strong>Niczym niezastąpiona wiedza od innych doświadczonych piwowarów domowych</strong></li>   
+
+                    </ul>
+                    <p>
+                  </div>
+                </div>
+              </div>
+              <!-- a2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" id="a2" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h5 class="text-accordion">Sprzęt</h5>
+                    <img class="icons" src="ico/home_brew/equ.png" >
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+                    <p> 
+                      Warzenie piwa w domu to fascynujące hobby, które wymaga odpowiedniego sprzętu. Oto lista podstawowego wyposażenia, które jest niezbędne dla początkującego piwowara:
+                    </p>
+                    <p class="h6">Garnek do gotowania</p>
+                    <p>
+                      Duży garnek o pojemności co najmniej 20-30 litrów jest kluczowym elementem. Powinien być wykonany ze stali nierdzewnej lub emaliowany, z grubym dnem zapewniającym równomierne rozprowadzanie ciepła.
+                      <br>Dobrą, bardzo częstwo używaną alternatywą jest również elektryczny, automatyczny kocioł zacierno-warzelny.                     
+                    </p>
+                    <p class="h6">Fermentory</p>
+                    <p>Przynajmniej dwa (z kranikiem i bez). Najczęściej używane są:</p>
+                    <ul>
+                      <li>Plastikowe wiadra z pokrywą (tanie i lekkie)</li>       
+                      <li>Szklane gąsiorki (łatwe do czyszczenia i nie absorbują zapachów)</li>       
+                      <li>Stalowe fermentory (trwałe, ale droższe)</li>      
+                    </ul> 
+                    <p>
+                      Fermentor powinien mieć pojemność większą niż planowana objętość piwa, aby zostawić miejsce na pianę.
+                    </p>
+
+                    <p class="h6">Rurka fermentacyjna</p>
+                    <p>To prosty, ale ważny element. Pozwala na ujście dwutlenku węgla z fermentora, jednocześnie nie wpuszczając do środka powietrza i potencjalnych zanieczyszczeń.       
+                    </p>
+
+                    <p class="h6">Termometr</p>
+                    <p>
+                      Precyzyjny termometr jest niezbędny do kontrolowania temperatury na różnych etapach procesu. Najlepsze są cyfrowe termometry z długą sondą.       
+                    </p>
+
+                    <p class="h6">Aerometr (cukromierz)</p>
+                    <p>
+                      Służy do mierzenia gęstości brzeczki w blg, co pozwala określić potencjalną zawartość alkoholu w piwie.       
+                    </p>
+
+                    <p class="h6">Chłodnica</p>
+                    <p>
+                      Do szybkiego schładzania gorącej brzeczki. Typy:        
+                    </p>
+                    <ul>
+                      <li>Chłodnica zanurzeniowa</li>       
+                      <li>Chłodnica przeciwbierzna</li>       
+                    </ul>
+                    
+                    <p class="h6">Keg, butelki i  kapslownica</p>
+                    <p>Do butelkowania gotowego piwa potrzebne są czyste butelki (najlepiej ciemne) i narzędzie do ich zamykania - kapslownica. Alternatywą są butleki z mechanicznym korkiem. 
+                      <br>Można również przelać piwo do kegów różnego rodzaju, chociaż piwowarzy domowi najczęściej używają Cornelius Keg z racji łatwego dostępu do wnętrza (zdejmowana duża pokrywka na górze).        
+                    </p>
+
+                    <p class="h6">Środki czyszczące i dezynfekujące</p>
+                    <p>
+                      Higiena jest kluczowa w piwowarstwie. Potrzebne będą specjalne środki do czyszczenia i dezynfekcji sprzętu. Ja polecam NaOH (soda kaustyczna) do odkażania oraz StarSan do dezynfekcji i deazktywacji sody kaustycznej.          
+                    </p>
+
+                    <p class="h6">Śrutownik do słodu</p>
+                    <p>
+                      Jeśli planujesz używać całych ziaren słodu, młynek będzie niezbędny do ich rozdrobnienia przed zacieraniem.         
+                    </p>
+
+                    <p class="h6">Dodatkowe akcesoria</p>
+                    <ul>
+                      <li>Długa łycha do mieszania</li>       
+                      <li>Lejek</li>   
+                      <li>Wężyki do przelewania</li>   
+                      <li>Wężyk grawitacyjny do rozewania piwa do butelek</li>   
+                      <li>Sito lub worek do chmielenia</li>   
+                      <li>Wężyk filtacyjny z oplotu założony na fermentator z kranikiem do filtacji brzeczki</li>   
+                      <li>Słoik lub kolba do przygotowywania startera drożdży</li>   
+                      <li>Jodowy wskaźnik skrobi - 1% roztwór płynu Lugola do sprawdzenia obecności skrobi </li>
+                    </ul>
+                    <p>
+                      Jeśli chciałbyć rozpocząć przygodę z warzeniem od zakupu kotła zacierno-warzelnego, część ze sprzętu nie będzie potrzebna (np. wężyk z oplotu). Pamiętaj, że nie musisz kupować wszystkiego na raz. Zacznij od podstawowego zestawu i stopniowo rozbudowuj swój sprzęt w miarę zdobywania doświadczenia i eksperymentowania z różnymi technikami warzenia.        
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <!-- a3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" id="a3" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h5 class="text-accordion">Receptura</h5>
+                    <img class="icons" src="ico/home_brew/rec.png" >
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+                    <p>
+                      Warzenie piwa domowego można zacząć właściwie od gotowego koncentratu tzw. Brewkit-u. Do warzenia takiego piwa potrzebujemy właściwie tylko duży garnek, fermentator z rurką fermentacyjną, butelki, kapslownicę i kapsle.
+                      Jednakże najwięcej satysfakcji daje warzenia piwa z zacieraniem słodu. Do tego potrzebna jest receptura. Piwowarom rozpoczynającym przygodę z warzeniem polecam gotowe zestawy surowców na bazie słodów. Oprócz wszystkch składników (bez drożdży), do zestawu załączona jest receptura, czyli opis krok po kroku, jak uwarzyć piwo.
+                      Kolejnym etapem jest już korzystanie z gotowych receptur lub tworzenie własnych. 
+                    </p>
+                    <p class="h6">Gotowe receptury</p>
+                    <ul>
+                      <li>Receptury z książek - np. Jak warzyć piwo, (John Palmer)</li>       
+                      <li>Receptury z czasopism - np. Piwowar</li>   
+                      <li>Receptury z forów internetowych - polecam piwo.org </li>   
+                      <li>Receptury z sieci - np. https://pspd.org.pl/receptury-piw-domowych/</li>   
+                    </ul>
+                    <p class="h6">Tworzenie własnych receptur - polecam aplikacje np. Brewness, Brewtarget</p>
+                    <ul>
+                      <li>Przeliczanie ekstraktu, poziomu goryczki, barwy itp.</li>       
+                      <li>Magazyn surowców</li>   
+                      <li>Przydatne kalkulatory</li>   
+                      <li>Mozliwość wydruku receptury</li>   
+                    </ul>
+
+
+                  </div>
+                </div>
+              </div>
+              <!-- a4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" id="a4" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h5 class="text-accordion">Składniki</h5>
+                    <img class="icons" src="ico/home_brew/egr.png" >
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+                    <p>
+                      Piwo domowe składa się z czterech podstawowych składników: słodu, chmielu, drożdży i wody. Każdy z nich odgrywa kluczową rolę w kształtowaniu smaku, aromatu i charakteru piwa. Dodatkowo, piwowarzy domowi często eksperymentują z różnymi dodatkami, aby stworzyć unikalne warianty piwa.
+                    </p>
+                    <p class="h6">Słód</p>
+                    <p>Słód jest głównym źródłem cukrów fermentujących w piwie. Rodzaje słodów: 
+                      <ul>
+                        <li>Słód bazowy (np. pilzneński, pale ale, monachijski): Stanowi podstawę piwa, dostarcza większość cukrów.</li>       
+                        <li>Słody specjalne (np. karmelowe, czekoladowe, palone): Dodają kolor i smak.</li>   
+                        <li>Słody niesłodowane (np. pszenica, owies, żyto): Wpływają na smak i teksturę piwa.</li>      
+                      </ul>       
+                    </p>
+                    <p class="h6">Chmiel</p>
+                    <p>Chmiel nadaje piwu goryczkę, smak i aromat. Rodzaje chmielu: 
+                      <ul>
+                        <li>Chmiele goryczkowe (np. Magnum, Columbus): Używane na początku gotowania.</li>       
+                        <li>Chmiele aromatyczne (np. Saaz, Cascade): Dodawane pod koniec gotowania lub na zimno.</li>   
+                        <li>Chmiele uniwersalne (np. Centennial, Simcoe): Łączą cechy gorzyczkowe i aromatyczne.</li>      
+                      </ul>       
+                    </p>
+                  
+                    <p class="h6">Drożdże</p>
+                    <p>Drożdże są odpowiedzialne za fermentację, przekształcając cukry w alkohol i CO2 oraz wnoszą do piwa odpowiedni profil sensoryczny. Rodzaje drożdży:
+                      <ul>
+                        <li>Górnej fermentacji (ale): Fermentują w wyższych temperaturach (15-25°C).</li>       
+                        <li>Dolnej fermentacji (lager): Fermentują w niższych temperaturach (7-15°C).</li>   
+                        <li>Dzikie drożdże i bakterie: Używane w piwach kwaśnych i lambikach.</li>      
+                      </ul>       
+                    </p>
+
+                    <p class="h6">Woda</p>
+                    <p>Woda stanowi największą część piwa i ma duży wpływ na jego jakość. Cechy wody:
+                      <ul>
+                        <li>Twardość: Wpływa na ekstakcję składników ze słodu i chmielu.</li>       
+                        <li>pH: Ważne dla aktywności enzymów i stabilności piwa.</li>   
+                        <li>Profil mineralny: Wpływa na smak i charakter piwa.</li>      
+                      </ul>       
+                    </p>
+
+                    <p class="h6">Dodatki</p>
+                    <p>Piwowarzy domowi często eksperymentują z różnymi dodatkami. Przykłady dodatków:
+                      <ul>
+                        <li>Owoce: Nadają smak i aromat (np. maliny, wiśnie).</li>       
+                        <li>Przyprawy: Dodają złożoności (np. kolendra, skórka pomarańczowa).</li>   
+                        <li>Kawa i kakao: Wzbogacają ciemne piwa.</li>      
+                        <li>Miód, syropy: Zwiększają zawartość alkoholu i dodają smaku.</li>      
+                        <li>Laktoza: Dla słodyczy w piwach mlecznych.</li>      
+                      </ul>       
+                    </p>
+
+                    <p>
+                      Wybór i jakość składników mają kluczowe znaczenie dla końcowego efektu. Eksperymentowanie z różnymi kombinacjami składników pozwala piwowarom domowym tworzyć unikalne i ciekawe piwa, dostosowane do własnych preferencji smakowych.
+                    </p>
+                  
+                  </div>
+                </div>
+              </div>
+              <!-- a5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" id="a5" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <h5 class="text-accordion">Śrutowanie</h5>
+                    <img class="icons" src="ico/home_brew/mil.png" >
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+                    <p>
+                      Śrutowanie słodu polega na rozdrobnieniu ziaren słodu przed zacieraniem. Prawidłowe śrutowanie ma ogromny wpływ na efektywność procesu zacierania i ostateczną jakość piwa. Do śrutowania słody używa się już właściwie tylko śrutowników walcowych, składają się z dwóch lub więcej obracających się walców, w których można regulować odstęp między walcami.
+                    </p>
+                    <p class="h6">Cele śrutowania</p>
+                    <ul>
+                      <li>Odsłonięcie endospermu: Umożliwienie dostępu enzymom do skrobi zawartej w ziarnie.</li>       
+                      <li>Zachowanie plew: Plewy służą jako naturalny filtr podczas filtracji zacieru.</li>   
+                      <li>Optymalizacja ekstraktywności: Maksymalizacja uzysku cukrów ze słodu.</li>      
+                      <li>Przygotowanie do zacierania: Ułatwienie procesu zacierania poprzez zwiększenie powierzchni kontaktu ziaren z wodą.</li>                       
+                    </ul>
+                    <p class="h6">Prawidłowa technika śrutowania</p>
+                    <ul>
+                      <li>Regulacja młynka: Ustaw odstęp między walcami w zależności od słodu. Standardowa śruta wyglądem przypomina kaszę jęczmienną i ma niezniszczoną łuskę. Słody przeniszczne i żytnie (bez łuski) należy śrutować drobniej. </li>       
+                      <li>Prędkość śrutowania: Śrutuj powoli, aby uniknąć przegrzania ziarna i nadmiernego pylenia.</li>   
+                      <li>Ilość: Śrutuj tylko tyle słodu, ile potrzebujesz na jedno warzenie.</li>      
+                      <li>Kontrola jakości: Sprawdzaj wynik śrutowania - ziarno powinno być rozkruszone, ale plewy w większości całe.</li>                       
+                    </ul>
+                    <p class="h6">Wpływ śrutowania na proces warzenia/p>
+                    <ul>
+                      <li>Zacieranie: Dobrze zśrutowany słód ułatwia dostęp enzymów do skrobi, zwiększając efektywność zacierania.</li>       
+                      <li>Filtracja: Zachowane plewy tworzą naturalną warstwę filtracyjną, ułatwiając oddzielenie brzeczki od osadu.</li>   
+                      <li>Wydajność: Prawidłowe śrutowanie zwiększa wydajność ekstraktu, co przekłada się na lepsze wykorzystanie słodu.</li>      
+                      <li>Klarowność: Zbyt drobne śrutowanie może prowadzić do problemów z klarownością piwa.</li>                       
+                    </ul>
+                    <p>
+                      Prawidłowe śrutowanie słodu jest sztuką, która wymaga praktyki i doświadczenia. Zwracanie uwagi na ten etap procesu może znacząco poprawić jakość domowego piwa i zwiększyć satysfakcję z piwowarstwa.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <!-- a6 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" id="a6" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <h5 class="text-accordion">Zacieranie</h5>
+                    <img class="icons" src="ico/home_brew/mash.png" >
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+
+                    <p>
+                      Zacieranie to etap, podczas którego enzymy zawarte w słodzie rozkładają skrobię na cukry fermentujące. Ten proces ma fundamentalne znaczenie dla charakteru i jakości końcowego produktu.                  </p>
+                    <p class="h6">Cele zacierania</p>
+                    <ul>
+                      <li>Rozkład skrobi: Przekształcenie skrobi zawartej w słodzie na cukry fermentujące.</li>       
+                      <li>Ekstrakcja składników: Uwolnienie składników smakowych i aromatycznych ze słodu.</li>   
+                      <li>Tworzenie profilu cukrów: Kształtowanie proporcji różnych cukrów, wpływających na końcowy smak i teksturę piwa.</li>      
+                      <li>Przygotowanie do filtracji: Utworzenie struktury umożliwiającej łatwą filtrację zacieru.</li>                       
+                    </ul>
+                    <p class="h6">Metody zacierania</p>
+                    <p class="h6">1. Zacieranie infuzyjne</p>
+                    <ul>
+                      <li>Najprostsze i najpopularniejsze w piwowarstwie domowym.</li>       
+                      <li>Utrzymanie stałej temperatury przez cały proces (najczęściej 65-68°C), zwykle przez 60 minut.</li>   
+                      <li>Dobre dla prostych piw ze słodów dobrze zmodyfikowanych.</li>                          
+                    </ul>
+                    <p class="h6">2. Zacieranie wielostopniowe</p>
+                    <ul>
+                      <li>Stosowanie kilku przerw temperaturowych przez określony czas.</li>       
+                      <li>Pozwala na większą kontrolę nad profilem cukrów.</li>   
+                      <li>Przydatne przy użyciu słodów słabo zmodyfikowanych lub dodatków niesłodowanych.</li>                          
+                    </ul>
+                    <p class="h6">3. Zacieranie dekokcyjne</p>
+                    <ul>
+                      <li>Część zacieru jest oddzielana, podgrzewana, przetrzymywana w danej temperaturze przez określony czas, następnie gotowana i dodawana z powrotem do głównego zacieru.</li>       
+                      <li>Tradycyjna metoda dla niektórych stylów piw (np. pilzner czeski).</li>   
+                      <li>Zwiększa złożoność smakową, ale jest bardziej pracochłonna.</li>                          
+                    </ul>
+                    <p class="h6">Podstawowe etapy zacierania</p>
+                    <ul>
+                      <li>Mieszanie słodu z wodą: Zwykle w proporcji 2-4 litry wody (najczęściej 3 lity) na 1 kg słodu.</li>       
+                      <li>Kontrola temperatury: Utrzymywanie odpowiedniej temperatury przez określony czas.</li>   
+                      <li>Testy jodowe: Sprawdzanie postępu konwersji skrobi.</li>      
+                      <li>Zakończenie: Podgrzanie zacieru do temperatury inaktywacji enzymów (mash-out).</li>                       
+                    </ul>
+                    <p class="h6">Główne temperatury zacierania (jest ich więcej)</p>
+                    <ul>
+                      <li>62-65°C: Przerwa beta-amylazowa (maltozowa) - produkcja cukrów fermentujących – piwo bardziej wytrawne</li>       
+                      <li>68-72°C: Przerwa alfa-amylazowa (dekstrynująca) - produkcja cukrów niefermentujących – piwo bardziej treściwe i słodsze.</li>   
+                      <li>76-78°C: Mash-out - zatrzymanie aktywności enzymatycznej i ułatwienie filtracji</li>                          
+                    </ul>
+                    
+                    <p>
+                      Zacieranie to etap, w którym kształtuje się podstawowy charakter piwa. Zrozumienie i opanowanie tego procesu pozwala piwowarom domowym na tworzenie piw o pożądanych cechach i eksperymentowanie z różnymi stylami.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <!-- a7 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" id="a7" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    <h5 class="text-accordion">Wysładzanie</h5>
+                    <img class="icons" src="ico/home_brew/wat.png" >
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+
+                    <p>
+                      Wysładzanie, zwane również filtracją zacieru następuje bezpośrednio po zacieraniu. Polega na oddzieleniu płynnej części zacieru (brzeczki) od stałych części słodu (wysłodzin).
+                    </p>
+                    <p class="h6">Cele wysładzania</p>
+                    <ul>
+                      <li>Oddzielenie brzeczki: Uzyskanie klarownej brzeczki, bogatej w cukry fermentujące.</li>       
+                      <li>Maksymalizacja wydajności: Wydobycie jak największej ilości cukrów ze słodu.</li>   
+                      <li>Klarowanie brzeczki: Usunięcie większości stałych cząstek słodu.</li>      
+                      <li>Przygotowanie do warzenia: Uzyskanie odpowiedniej ilości brzeczki o pożądanej gęstości.</li>                       
+                    </ul>
+                    <p class="h6">Metody wysładzania</p>
+                    <ul>
+                      <li>Tradycyjna metoda wsadowa: Całość wody do wysładzania dodawana jest na raz. Prosta metoda, ale może prowadzić do niższej wydajności.</li>       
+                      <li>Wysładzanie ciągłe: Woda dodawana jest stopniowo, w miarę spuszczania brzeczki. Pozwala na lepszą kontrolę procesu i często wyższą wydajność.</li>   
+                      <li>Wysładzanie z recyrkulacją: Część spuszczonej brzeczki jest zawracana na złoże filtracyjne. Może poprawić klarowność i wydajność, ale wydłuża proces.</li>                            
+                    </ul>
+                    <p class="h6">Podstawowe etapy wysładzania</p>
+                    <ul>
+                      <li>Przygotowanie kadzi filtracyjnej: Należy upewnić się, że kadź ma odpowiedni system filtracyjny (np. fałszywe dno, worek filtracyjny lub wężyk z oplotem).</li>       
+                      <li>Przeniesienie zacieru: Zacier przenosi się do kadzi filtracyjnej, uważając, aby nie napowietrzyć go zbytnio następnie pozwala się zacierowi osiąść przez 5-10 minut, tworząc naturalną warstwę filtracyjną.</li>   
+                      <li>Recyrkulacja: Rozpoczyna się powolne spuszczanie brzeczki, zawracając ją na wierzch złoża filtracyjnego i kontynuuje się recyrkulację, aż brzeczka stanie się klarowna.</li>      
+                      <li>Spuszczanie brzeczki: Gdy brzeczka jest już klarowna, rozpoczyna się jej spuszczanie do kotła warzelnego utrzymując stały, powolny przepływ, aby uniknąć kompresji złoża filtracyjnego.</li>                       
+                      <li>Wysładzanie: Gdy poziom brzeczki nad złożem filtracyjnym spadnie, rozpoczyna się dodawanie wody o temperaturze około 75-78°C do wysładzania kontynuując, aż osiągnie się pożądaną objętość lub gęstość brzeczki.</li>                       
+                    </ul>
+                    <p>
+                      Wysładzanie, choć często niedoceniane, jest kluczowym etapem wpływającym na jakość i wydajność warzenia piwa domowego. Opanowanie tego procesu pozwala na uzyskanie czystej, bogatej w cukry brzeczki, co przekłada się na lepszą jakość gotowego piwa.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <!-- a8 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                  <button class="accordion-button collapsed" type="button" id="a8" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    <h5 class="text-accordion">Gotowanie</h5>
+                    <img class="icons" src="ico/home_brew/boil.png" >
+                  </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionHB">
+                  <div class="accordion-body">
+                    <p>
+                      Po zacieraniu i wysładzaniu następuję kolejny etap czyli gotowanie brzeczki. Ten proces ma fundamentalne znaczenie dla jakości końcowego produktu.                  </p>
+                    <p class="h6">Cele gotowania brzeczki</p>
+                    <ul>
+                      <li>Sterylizacja: Eliminacja potencjalnych mikroorganizmów.</li>       
+                      <li>Izomeryzacja alfa-kwasów: Przekształcenie alfa-kwasów z chmielu w izo-alfa-kwasy, nadające piwu goryczkę.</li>   
+                      <li>Koagulacja białek: Tworzenie tzw. "przełomu gorącego", co pomaga w klarowaniu piwa.</li>      
+                      <li>Odparowanie niepożądanych związków: Usunięcie DMS (dimetylosiarczku) i innych lotnych związków.</li>                       
+                      <li>Koncentracja brzeczki: Osiągnięcie pożądanej gęstości poprzez odparowanie wody.</li>                       
+                      <li>Ekstrakcja składników chmielu: Uzyskanie goryczy, smaku i aromatu.</li>                       
+                    </ul>
+                    <p class="h6">Podstawowe etapy gotowania</p>
+                    <ul>
+                      <li>Doprowadzenie do wrzenia: Szybkie podgrzanie brzeczki do punktu wrzenia następnie zmniejszenie grzania, gdy brzeczka zacznie się pienić.</li>       
+                      <li>Utrzymanie wrzenia: Gotowanie brzeczki na wolnym grzaniu. Typowy czas gotowania to 60-90 minut, zależnie od stylu piwa.</li>   
+                      <li>Chmielenie: <dd>- Chmiel na goryczkę: na początku (60-90 min),</dd><dd>- Chmiel na smak: w środku gotowania (20-30 min),</dd><dd>- Chmiel na aromat: pod koniec gotowania (0-10 min).</dd></li>      
+                      <li>Kontrola odparowania: Monitorowanie ilość odparowanej wody (typowe odparowanie to 5-15% objętości na godzinę).</li>                       
+                      <li>Dodatki: Dodawanie przypraw, owoców lub innych składników zgodnie z recepturą.</li>                       
+                      <li>Zakończenie gotowania: Wyłączenie źródła ciepła.</li>                       
+                    </ul>
+                    <p>
+                      Gotowanie brzeczki to etap, w którym kształtuje się podstawowy charakter twojego piwa. Precyzja, cierpliwość i uwaga na szczegóły są kluczowe dla osiągnięcia pożądanego efektu końcowego.                  
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- a9 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNine">
+                  <button class="accordion-button collapsed" type="button" id="a9" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    <h5 class="text-accordion">Chłodzenie</h5>
+                    <img class="icons" src="ico/home_brew/cool_w.png" >
+                  </button>
+                </h2>
+                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionHB">
+                  <div class="accordion-body text-white bg-black">
+                    <p>
+                      Chłodzenie to kolejny etap w procesie warzenia piwa domowego. Szybkie i efektywne schłodzenie gorącej brzeczki po gotowaniu jest istotne z kilku powodów - zapobiega zakażeniom, minimalizuje powstawanie niepożądanych smaków oraz umożliwia dodanie drożdży w odpowiedniej temperaturze
+                    <p class="h6">Metody chłodzenia brzeczki</p>
+                    <p class="h6">1. Chłodnica zanurzeniowa</p>
+                    <ul>
+                      <li>Zanurzana bezpośrednio w gorącej brzeczce</li>       
+                      <li>Wykonana ze spiralnie zwiniętej miedzianej lub rurki ze stali nierdzewnej</li>   
+                      <li>Zimna woda przepływa przez rurkę, odbierając ciepło z brzeczki</li>                          
+                      <li>Prosta w użyciu, ale mniej efektywna niż inne metody</li>                          
+                    </ul>
+                    <p class="h6">2. Chłodnica przeciwbieżna, wymiennik ciepła</p>
+                    <ul>
+                      <li>Składa się z dwóch rurek - wewnętrznej i zewnętrznej/wielu cienkich płyt</li>       
+                      <li>Gorąca brzeczka przepływa w jednym kierunku, zimna woda w przeciwnym</li>   
+                      <li>Bardzo efektywna metoda, szybko schładza duże ilości brzeczki</li>                          
+                      <li>Wymaga przepompowywania brzeczki</li>                          
+                    </ul>
+                    <p class="h6">3. Metoda lodowej kąpieli</p>
+                    <ul>
+                      <li>Garnek z brzeczką umieszcza się w większym zbiorniku z lodowatą wodą np. wannie</li>       
+                      <li>Prosta metoda, ale czasochłonna i mniej efektywna</li>   
+                      <li>Wymaga dużej ilości lodu</li>                          
+                      <li>Ryzyko zakażenia przy długim czasie chłodzenia</li>                          
+                    </ul>
+                    <p>
+                      Szybkie i efektywne chłodzenie to kluczowy krok w produkcji wysokiej jakości piwa domowego oraz o higienie - wszystkie elementy mające kontakt z brzeczką muszą być sterylne Wybór odpowiedniej metody zależy od ilości warzonego piwa, dostępnego budżetu i osobistych preferencji.                  
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <!-- a10 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTen">
+                  <button class="accordion-button collapsed" type="button" id="a10" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    <h5 class="text-accordion">Fermentacja</h5>
+                    <img class="icons" src="ico/home_brew/fer_w.png" >
+                  </button>
+                </h2>
+                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionHB">
+                  <div class="accordion-body text-white bg-black">
+                    <p>
+                      Po chłodzeniu brzeczkę zlewa się znad osadów białkowych i chmielowych do fermentatora, w którym następuje fermentacja. Podczas fermentacj drożdże przekształcają cukry zawarte w brzeczce w alkohol i dwutlenek węgla. Ten proces nadaje piwu jego charakterystyczny smak, aromat i zawartość alkoholu.
+                    </p>
+                    <p class="h6">Cele fermentacji</p>
+                    <ul>
+                      <li>Produkcja alkoholu: Przekształcenie cukrów fermentujących w etanol.</li>       
+                      <li>Tworzenie CO2: Naturalnie gazuje piwo.</li>   
+                      <li>Rozwój smaku i aromatu: Tworzenie związków wpływających na profil organoleptyczny piwa.</li>      
+                      <li>Klarowanie piwa: Opadanie drożdży i białek na dno fermentora.</li>                       
+                    </ul>
+                    <p class="h6">Podstawowe etapy fermentacji</p>
+                    <p class="h6">1. Przygotowanie</p>
+                    <ul>
+                      <li>Schłodzenie brzeczki do temperatury fermentacji (zależnej od typu drożdży).</li>       
+                      <li>Charakteryzuje się intensywną pracą drożdży, widoczną w postaci piany na powierzchni.</li>   
+                      <li>Większość cukrów jest przetwarzana w tej fazie.</li>                                                 
+                    </ul>
+                    <p class="h6">2. Fermentacja główna</p>
+                    <ul>
+                      <li>Trwa zwykle 3-7 dni.</li>       
+                      <li>Napowietrzenie brzeczki dla zapewnienia drożdżom tlenu na początkowym etapie.</li>   
+                      <li>Dodanie drożdży (pitched) do schłodzonej brzeczki.</li>                                                 
+                    </ul>
+                    <p class="h6">3. Fermentacja wtórna (cicha)</p>
+                    <ul>
+                      <li>Trwa od kilku dni do kilku tygodni.</li>       
+                      <li>Wolniejszy proces, podczas którego drożdże przetwarzają pozostałe cukry.</li>   
+                      <li>Piwo zaczyna się klarować, a smak dojrzewać.</li>                                                 
+                    </ul>
+                    <p class="h6">Typy fermentacji</p>
+                    <p class="h6">1. Fermentacja górna (ale)</p>
+                    <ul>
+                      <li>Wykorzystuje drożdże górnej fermentacji.</li>       
+                      <li>Temperatura fermentacji: 15-24°C.</li>   
+                      <li>Charakterystyczna dla piw typu: ale, stout, porter, pszeniczne, saison, barleywine.</li>                                                 
+                    </ul>
+                    <p class="h6">2. Fermentacja dolna (lager)</p>
+                    <ul>
+                      <li>Wykorzystuje drożdże dolnej fermentacji.</li>       
+                      <li>Temperatura fermentacji: 7-15°C.</li>   
+                      <li>Charakterystyczna dla piw typu: lager, pilzner, koźlak, porter bałtycki.</li>                                                 
+                    </ul>
+                    <p class="h6">3. Fermentacja spontaniczna</p>
+                    <ul>
+                      <li>Wykorzystuje dzikie drożdże i bakterie z otoczenia.</li>       
+                      <li>Charakterystyczna dla lambików i niektórych kwaśnych piw.</li>                                                   
+                    </ul>
+                    <p class="h6">Czynniki wpływające na fermentację</p>
+                    <ul>
+                      <li>Temperatura: Kluczowa dla aktywności drożdży i produkcji związków smakowych.</li>       
+                      <li>Gęstość początkowa: Wpływa na potencjalną zawartość alkoholu i stres osmotyczny drożdży.</li>                                                   
+                      <li>Natlenienie brzeczki: Ważne dla namnażania się drożdży na początku fermentacji.</li>                                                   
+                      <li>Ilość i żywotność drożdży: Wpływa na szybkość i czystość fermentacji.</li>                                                   
+                      <li>Skład brzeczki: Rodzaje cukrów i składniki odżywcze dla drożdży.</li>                                                   
+                    </ul>
+                    <p class="h6">Monitorowanie fermentacji</p>
+                    <ul>
+                      <li>Pomiar gęstości: Regularnie mierz gęstość, aby śledzić postęp fermentacji.</li>       
+                      <li>Obserwacja wizualna: Zwracaj uwagę na aktywność w rurce fermentacyjnej i wygląd piwa.</li>                                                   
+                      <li>Kontrola temperatury: Utrzymuj stałą, odpowiednią temperaturę.</li>                                                   
+                      <li>Smak i zapach: Ostrożnie pobieraj próbki do oceny organoleptycznej.</li>                                                                                                    
+                    </ul>
+                    <p>
+                      Fermentacja to fascynujący proces, który wymaga uwagi i cierpliwości. Zrozumienie i kontrolowanie tego etapu pozwala piwowarom domowym na tworzenie piw o pożądanych cechach i eksperymentowanie z różnymi stylami.
+                      W celu dodania aromatu w piwach mocno chmielonych, pod koniec fermentacji wtórej(cichej), można dorzucić jeszcze chmiel aromatyczny - chmielenie na zimno. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- a11 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEleven">
+                  <button class="accordion-button collapsed" type="button" id="a11" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                    <h5 class="text-accordion">Rozlew</h5>
+                    <img class="icons" src="ico/home_brew/bott_w.png" >
+                  </button>
+                </h2>
+                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionHB">
+                  <div class="accordion-body text-white bg-black">
+                    <p>
+                      Przefermentowana brzeczka to właściwie gotowe piwo, które należy zlać znad osadów drożdżowych i/lub chmielowych (przy chmieleniu na zimno) i nagazować.
+                    </p>
+                    <p class="h6">Najważniejsze aspekty rozlewu:</p>
+                    <ul>
+                      <li>Wybór metody rozlewu: Rozlew do butelek lub kegów.</li>       
+                      <li>Przygotowanie do rozlewu: Dokładne umycie i dezynfekcja sprzętu, butelek i kegów oraz dekantowanie piwa do fermentatora rozlewczego z kranikiem</li>   
+                      <li>Butelkowanie: Dodanie glukozy do fermentatora lub bezpośrednio do butelek, zlanie piwa przy użyciu rurki z zaworem na końcu do butelek, następnie kapslowanie butelek.</li>      
+                      <li>Kegowanie: Opcjonalnie dodanie glukozy do fermentatora (lub ominięcie tego kroku i sztuczne nagazowanie bezpośrednio CO2 z butli w kegu) i zlanie piwa do kega przy użyciu wężyka.</li>                       
+                      <li>Dojrzewanie: Przechowywanie butelek lub kegu w odpowiedniej temperaturze przez określony czas zależny od stylu piwa</li>                       
+                      <li>Przechowywanie: Zapewnienie odpowiednich warunków (temperatura, brak światła) oraz ustawienie butelek (pionowo) lub kega w stabilnej pozycji.</li>                       
+                    </ul>
+                    <p>
+                      Rozlew zajmuje mniej czasu niż warzenie piwa, jednakże jest dość czasochłonny szczególnie, gdy butelkujemy piwo. Po nagazowaniu trwającym ok. 10-14 dni, butelki lub kegi powinno przechowywać się w niskiej temperaturze.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- a12 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwelve">
+                  <button class="accordion-button collapsed" type="button" id="a12" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                    <h5 class="text-accordion">Konsumpcja</h5>
+                    <img class="icons" src="ico/home_brew/enjoy_w.png" >
+                  </button>
+                </h2>
+                <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionHB">
+                  <div class="accordion-body text-white bg-black">
+                    <p>
+                      Nareszczie!!! Po ok. 14 dniach od butelkowania można w końcu spróbować naszego piwa. Piwo na ogół potrzebuje jeszcze dodatkowo do dwóch tygodni, by nabrało właściwych walorów. Piwa mocne powinny leżakować nawet kilka miesięcy dla ułożenia sie smaku i aromatu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>    
+
+      </div>
+
+
+    <app-footer></app-footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+        
+</html>
