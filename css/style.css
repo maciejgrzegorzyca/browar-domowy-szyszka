@@ -1,1 +1,361 @@
+body {
+    background-color: #212529 ;
+}
 
+.logo {
+    height: 80px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me{
+    height: 250px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    transition: all 0.3s;
+}
+
+.about-me:hover{
+    transform: scale(1.25);
+}
+
+.position-button {
+    position: relative;
+    text-align: end;
+}
+
+.footer-text {
+    color: white;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.bg-color-about{
+    background-color: rgba(5, 3, 1, 1);
+    color: #ffffff;
+}
+
+.h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.h5{
+    text-align: center;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.h8 {
+    text-align: end;
+    font-size: 10px;
+}
+
+
+.h5-show {
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+dd {
+    margin-bottom: 0;
+}
+
+.shadow-my {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-show {
+    text-align: center;
+}
+
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.nav-link > svg {
+    vertical-align: super;
+}
+
+.btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+.btn-show {
+    cursor: pointer;
+    border: 0px solid rgb(59, 8, 6);
+    font-family: "system-ui";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    transition: all 2s ease 0s;
+    width: 320px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 20px -3px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(253, 203, 91) 0%, rgb(59, 8, 6) 100%);
+    font-weight: 400;
+    --hover-width: 500px;
+    --hover-borderSize: 0px;
+    --hover-bgc: #3b0806;
+    --hover-color: #ffffff;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    }
+    
+.btn-show:hover{
+    color: rgb(255, 255, 255);
+    width: 400px;
+    background: linear-gradient(90deg,  rgb(226, 178, 75)  0%,rgb(36, 4, 3) 100%);
+    border-color: rgb(204, 0, 105);
+    border-width: 0px;
+    border-style: solid;
+    }
+
+
+.accordion-button {
+    text-transform: uppercase;
+    color: black;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff; 
+    color: black;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0;
+    --bs-accordion-border-color: 0;
+}
+
+.icons {
+    height: 3rem;
+    width: 3rem;
+}
+
+.text-accordion {
+    padding-right: 1rem;
+    margin: 0;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.icons-bs {
+    height: 120px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(253, 203, 91) 42%, rgba(211,116,0,1) 71%, rgb(59, 8, 6) 100%);
+}
+
+.card-body {
+    border-top: brown 2px solid;
+}
+
+
+.card-title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-subtitle {
+    color: brown;
+    text-decoration: underline;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+    
+}
+
+.card-date {
+    font-size: 14px;
+    text-align: end;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card-footer {
+    font-size: 16px;
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover; 
+}
+
+.pagination > li > a {
+    color: brown;
+}
+
+.accordion-button {
+    transition: all 0.3s;
+}
+
+.accordion-button:hover {
+    transform: scale(1.01);
+}
+
+#a1.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a1.accordion-button {
+    background-color: #ffffff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a2.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a2.accordion-button {
+    background-color: rgba(254, 231, 153, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a3.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a3.accordion-button {
+    background-color: rgba(253, 203, 91, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a4.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a4.accordion-button {
+    background-color: rgba(247, 179, 36, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a5.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a5.accordion-button {
+    background-color: rgba(238, 158, 0, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a6.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a6.accordion-button {
+    background-color: rgba(227, 137, 1, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a7.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a7.accordion-button {
+    background-color: rgba(211, 116, 0, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a8.accordion-button:not(.collapsed) {
+    background-color: rgb(252, 241, 217);
+}
+#a8.accordion-button {
+    background-color: rgba(198, 99, 1, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#a9.accordion-button:not(.collapsed) {
+    background-color: rgba(63, 33, 22, 1);
+    color: white;
+}
+#a9.accordion-button {
+    background-color: rgba(176, 79, 0, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+
+#a10.accordion-button:not(.collapsed) {
+    background-color: rgba(63, 33, 22, 1);
+    color: white;
+}
+#a10.accordion-button {
+    background-color: rgba(150, 53, 0, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+#a11.accordion-button:not(.collapsed) {
+    background-color: rgba(63, 33, 22, 1);
+    color: white;
+}
+#a11.accordion-button {
+    background-color: rgba(114, 27, 0, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+#a12.accordion-button:not(.collapsed) {
+    background-color: rgba(63, 33, 22, 1);
+    color: white;
+}
+#a12.accordion-button {
+    background-color: rgba(59, 8, 6, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
